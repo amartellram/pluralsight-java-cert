@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.function.Predicate;
 
-public class FunctionalInteracesPractice01 {
+public class FunctionalInterfacesPractice01 {
 
   static Optional<Product> findProduct(List<Product> products, Predicate<Product> predicate) {
     for(Product product: products) {
@@ -17,7 +17,7 @@ public class FunctionalInteracesPractice01 {
 
   public static void main(String[] args) {
     List<Product> products = ExampleData.getProducts();
-    String name = "spaghetti";
+    String name = "Spaghetti";
     findProduct(products, product -> product.getName().equals(name))
         .map(Product::getPrice)
         .ifPresentOrElse(price -> System.out.printf("The price of %s is $ %.2f%n", name, price),
