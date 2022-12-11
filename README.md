@@ -2,7 +2,7 @@
 
 [Working with Streams and Lambda Expressions in Java (Java SE 11 Developer Certification 1Z0-819)](https://app.pluralsight.com/library/courses/streams-lambda-expressions-java-se-11-developer-certification-1z0-819/table-of-contents)
 
-## Working with Streams - The basics
+## 04. Working with Streams - The basics
 
 Process a sequence of elements by different kind of operations.
 
@@ -57,4 +57,18 @@ products.stream()
 
 ### Obtaining streams
 
+Factory methods: Stream.of(), Stream.ofNullable()
+
 https://github.com/amartellram/pluralsight-java-cert/blob/274f1fba63a3a727f1a3069ca9667871cbf3f662/src/main/java/streams/BasicStreamSample03.java#L17-L36
+
+### Filtering and transforming streams
+
+* **filter:** intermediate operation, takes a predicate to filter
+* **map:** one-to-one transformation. It takes a function and transform each element in the stream
+* **flatMap:** one-to-many transformation.
+
+### Searching in streams
+
+### Reducing and collecting streams
+
+## 05. Working with streams - In depth
