@@ -67,6 +67,8 @@ https://github.com/amartellram/pluralsight-java-cert/blob/274f1fba63a3a727f1a306
 * **map:** one-to-one transformation. It takes a function and transform each element in the stream
 * **flatMap:** one-to-many transformation.
 
+https://github.com/amartellram/pluralsight-java-cert/blob/7681cfe01425c8e9bdf02ea2510ae54785e8189e/src/main/java/streams/BasicStreamSample03.java#L19-L40
+
 ### Searching in streams
 
 ### Reducing and collecting streams
