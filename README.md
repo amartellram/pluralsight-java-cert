@@ -56,3 +56,5 @@ products.stream()
 ```
 
 ### Obtaining streams
+
+https://github.com/amartellram/pluralsight-java-cert/blob/274f1fba63a3a727f1a3069ca9667871cbf3f662/src/main/java/streams/BasicStreamSample03.java#L17-L36
