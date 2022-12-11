@@ -1,4 +1,4 @@
-package streams_lambdas;
+package lambdas;
 
 import java.math.BigDecimal;
 
@@ -39,5 +39,14 @@ public class Product {
 
   public void setPrice(BigDecimal price) {
     this.price = price;
+  }
+
+  @Override
+  public String toString() {
+    return "Product{" +
+        "name='" + name + '\'' +
+        ", price=" + price +
+        ", category=" + category +
+        '}';
   }
 }

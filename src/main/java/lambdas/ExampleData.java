@@ -1,6 +1,6 @@
-package streams_lambdas;
+package lambdas;
 
-import static streams_lambdas.Category.*;
+import static lambdas.Category.*;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

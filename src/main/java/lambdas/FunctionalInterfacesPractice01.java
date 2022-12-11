@@ -1,4 +1,4 @@
-package streams_lambdas;
+package lambdas;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package streams_lambdas;
+package lambdas;
 
 import java.util.ArrayList;
 import java.util.HashMap;

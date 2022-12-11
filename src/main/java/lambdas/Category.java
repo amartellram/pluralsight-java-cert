@@ -1,4 +1,4 @@
-package streams_lambdas;
+package lambdas;
 
 public enum Category {
   FOOD,
