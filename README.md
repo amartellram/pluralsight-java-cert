@@ -34,3 +34,25 @@ Terminal operation
 ```
 
 ### Differences between streams and collections
+
+![image.png](assets/image.png)
+
+#### Internal vs external iteration
+
+**External iteration:** the iteration is not controlled by the collection itself
+
+```
+for (int i=0; i< products.size(); i++) {
+  Product p = products.get(i);
+  System.out.println(p);
+}
+```
+
+**Internal iteration:** the iteration is controlled by the stream itself
+
+```
+products.stream()
+  forEach(System.out::println);
+```
+
+### Obtaining streams
