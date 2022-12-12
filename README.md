@@ -84,10 +84,11 @@ https://github.com/amartellram/pluralsight-java-cert/blob/2fca860f4317bb1d965751
 
 ### Generating and building streams
 
+https://github.com/amartellram/pluralsight-java-cert/blob/0215f4780f3afb53478d311d0cc305c1248c9235/src/main/java/streams/AdvancedStreamsExample01.java#L10-L25
 
 ### Reducing streams in detail
 
-
+https://github.com/amartellram/pluralsight-java-cert/blob/0215f4780f3afb53478d311d0cc305c1248c9235/src/main/java/streams/AdvancedStreamsExample02.java#L15-L35
 
 ### Collecting streams in detail
 
@@ -95,6 +96,8 @@ Collect = mutable reduction
 A collection operation reduces a stream into a mutable result container
 
 Reduce = immutable reduction
+
+https://github.com/amartellram/pluralsight-java-cert/blob/0215f4780f3afb53478d311d0cc305c1248c9235/src/main/java/streams/AdvancedStreamsExample03.java#L14-L30
 
 ### Working with collectors
 
