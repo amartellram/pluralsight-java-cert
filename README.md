@@ -71,6 +71,11 @@ https://github.com/amartellram/pluralsight-java-cert/blob/7681cfe01425c8e9bdf02e
 
 ### Searching in streams
 
+
+* find a particular element : filter(...) , findFirst() or findAny()
+* Check if element exists anyMatch(...), allMatch(...), noneMatch(...)
+
+
 ### Reducing and collecting streams
 
 ## 05. Working with streams - In depth
