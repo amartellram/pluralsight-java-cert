@@ -92,8 +92,7 @@ https://github.com/amartellram/pluralsight-java-cert/blob/0215f4780f3afb53478d31
 
 ### Collecting streams in detail
 
-Collect = mutable reduction
-A collection operation reduces a stream into a mutable result container
+Collect = mutable reduction. A collection operation reduces a stream into a mutable result container
 
 Reduce = immutable reduction
 
@@ -101,11 +100,57 @@ https://github.com/amartellram/pluralsight-java-cert/blob/0215f4780f3afb53478d31
 
 ### Working with collectors
 
+Collector: Is an object that provides the set of functions necessary for a specific kind of collection operation.
+
+Parts:
+
+* **Supplier:** creates a new mutable result container.
+* **Accumulator:** update the result container with the result element.
+* **Combiner:** combines two intermediate result containers. It's necessary for parallel streams.
+  For each thread, a separate result container will be created, and after processing, the intermediate result need to be combines into a single result.
+* **Finisher:** last step of the collection operation after the combiner has been called to combine all the intermediate results.
+  Perform a final step processing if necessary to create a final result.
+
+Samples:
+
+* `toList()`
+* `toSet()`
+* `toMap()`
+
+#Advanced example 04
+
 ### Grouping stream elements
+
+#Advanced example 05
 
 ### Partitioning stream elements
 
+Partitioning is a special form of grouping in which you use a predicate as the classifier function
+which results in two groups.
+
+#Advanced example 06
+
 ### Parallel streams
+
+A parallel stream can execute stream operations in multiple threads in parallel.
+
+* Thread management and communication **overhead**.
+* Only likely to be beneficial when **limited by CPU**.
+* **Measure** is it is beneficial for your use case.
+
+Use `Collectors.groupingByConcurrent()` in parallel streams. It's an unordered collector.
+
+``` java
+Map<Category, List<Product>> productsByCategory =
+  products.parallelStream().collect(
+      Collectors.parallelStream().collect(
+          Collectors.groupingByConcurrent(Product::getCategory));
+```
 
 ### Specialized streams
 
+Some streams are specialized for primitive types. Exist to avoid boxing and unboxing.
+
+`IntStream` `LongStream` `DoubleStream`
+
+#Advanced example 07
