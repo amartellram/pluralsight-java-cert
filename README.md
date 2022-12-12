@@ -1,4 +1,4 @@
-# Notes about different courses for Java Certifications
+# Notes about Working with Streams and Lambda Expressions in Java Course
 
 [Working with Streams and Lambda Expressions in Java (Java SE 11 Developer Certification 1Z0-819)](https://app.pluralsight.com/library/courses/streams-lambda-expressions-java-se-11-developer-certification-1z0-819/table-of-contents)
 
@@ -81,3 +81,28 @@ https://github.com/amartellram/pluralsight-java-cert/blob/0f06e70b7e29deb99cf0f5
 https://github.com/amartellram/pluralsight-java-cert/blob/2fca860f4317bb1d965751251fffc9e60ab4ccf9/src/main/java/streams/BasicStreamSample05.java#L14-L26
 
 ## 05. Working with streams - In depth
+
+### Generating and building streams
+
+
+### Reducing streams in detail
+
+
+
+### Collecting streams in detail
+
+Collect = mutable reduction
+A collection operation reduces a stream into a mutable result container
+
+Reduce = immutable reduction
+
+### Working with collectors
+
+### Grouping stream elements
+
+### Partitioning stream elements
+
+### Parallel streams
+
+### Specialized streams
+
