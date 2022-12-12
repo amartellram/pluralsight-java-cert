@@ -78,6 +78,6 @@ https://github.com/amartellram/pluralsight-java-cert/blob/0f06e70b7e29deb99cf0f5
 
 ### Reducing and collecting streams
 
-
+https://github.com/amartellram/pluralsight-java-cert/blob/2fca860f4317bb1d965751251fffc9e60ab4ccf9/src/main/java/streams/BasicStreamSample05.java#L14-L26
 
 ## 05. Working with streams - In depth
