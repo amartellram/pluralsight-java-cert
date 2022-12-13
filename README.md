@@ -2,6 +2,8 @@
 
 [Working with Streams and Lambda Expressions in Java (Java SE 11 Developer Certification 1Z0-819)](https://app.pluralsight.com/library/courses/streams-lambda-expressions-java-se-11-developer-certification-1z0-819/table-of-contents)
 
+
+
 ## 04. Working with Streams - The basics
 
 Process a sequence of elements by different kind of operations.
@@ -154,3 +156,15 @@ Some streams are specialized for primitive types. Exist to avoid boxing and unbo
 `IntStream` `LongStream` `DoubleStream`
 
 #Advanced example 07
+
+## Course summary
+
+Lambda expression
+* A lambda expression is an **anonymous method**.
+* A lambda expression implements a functional interface.
+* A functional interface has a **single abstract method**.
+
+Method references
+* Use a method reference instead of a lambda expression.
+* A method reference **implements a functional interface**.
+* Refers to a **static** or **non-static method** or a **constructor**.
